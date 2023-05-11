@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-    align-items: center;
-    justify-items: center;
+    display:flex;
+    justify-content: center;
 `;
 
 export const Form = styled.form`
@@ -19,7 +19,7 @@ export const Radio = styled.input.attrs({ type: 'radio' })`
 `;
 
 export const Input = styled.input.attrs({ type: 'text' })`
-    width: 40vw;
+    width: 30vw;
     height: 5vh;
     margin-bottom: 3vh;
     font-size: 3vh
@@ -34,7 +34,7 @@ export const Submit = styled.input.attrs({ type: 'submit' })`
 
 export const TextArea = styled.textarea`
     width: 40vw;
-    height: 5vh;
+    height: 15vh;
     margin-bottom: 3vh;
     font-size: 3vh
 `;
@@ -53,13 +53,12 @@ export const Label = styled.label`
 
 export const Title = styled.h3`
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 `;
 
 export const Subtitle = styled.h4`
     display: flex;
-    color: gray;
     justify-content: flex-start;
     align-items: flex-start;
 `;
