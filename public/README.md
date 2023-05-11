@@ -1,4 +1,4 @@
-# Candidate Register Frontend
+# Store
 ## Requirements
 
 - Node.js
@@ -9,6 +9,8 @@
 - Redux
 - Redux Thunk
 - React Redux
+- React Loading 
+
 ## Installation
 
 1. Run command on the root folder
